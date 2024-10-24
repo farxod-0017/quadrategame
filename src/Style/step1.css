@@ -1,0 +1,101 @@
+.step1_grid img {
+    width: 110px !important;
+    background: transparent;
+}
+.step1 {
+    background-color: rgba(128, 128, 128, 0.196);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+.step1_grid img:nth-of-type(0) {
+    display: none;
+}
+.step1_grid {
+    display: grid !important;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 18% 22% 22% 22%;
+    max-width: 1440px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    gap: 16px;
+}
+.step1_card {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    background-color: rgb(4, 255, 0);
+    display: flex;
+    justify-content: space-around;
+}
+.head_table  {
+    background-color: rgb(21, 95, 255);
+}
+.step1_card h4 {
+    font-size: 52px;
+    color: red;
+}
+.head_table h4 {
+    font-size: 20px;
+    color: rgb(247, 255, 12);
+}
+.step1_card_theme h2 {
+    color: rgb(247, 255, 12);
+
+}
+.step1_card_theme {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    background-color: rgb(7, 65, 255);
+
+}
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.484);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-4000px);
+    transition: 1000ms;
+    z-index: 10;
+}
+.modal_window {
+    width: 800px;
+    height: 600px;
+    background: linear-gradient(45deg, blue, green);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.modal_window h3 {
+    font-size: 42px;
+    color: white;
+}
+.show_modal {
+    transform: translateY(0);
+    transition: 400ms;
+}
+.modal_btn {
+    padding: 10px 20px;
+    background-color: goldenrod;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid gold;
+}
+.modal_btn:active {
+    scale: 0.9;
+}
+.close_btn {
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    right: 60px;
+}

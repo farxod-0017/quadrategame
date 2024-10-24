@@ -1,0 +1,21 @@
+.step2_grid {
+    display: grid !important;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 18% 22% 22%;
+    max-width: 1440px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.step3_grid {
+    display: grid !important;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 18% 22%;
+    max-width: 1440px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    gap: 16px;
+}
