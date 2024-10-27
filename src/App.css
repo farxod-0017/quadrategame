@@ -7,3 +7,27 @@
     background: linear-gradient(90deg, blue, white, green);
 
 }
+.header {
+    position: relative;
+    display: flex;
+}
+.head_nav {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    padding: 10px 0 0 50px;
+}
+.head_nav button {
+    padding: 6px 16px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(20, 20, 246, 0.639);
+    color: aqua;
+}
+.head_nav button:active {
+    scale: 0.9;
+    
+}

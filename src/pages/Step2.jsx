@@ -68,11 +68,11 @@ function Step1() {
     const QUESTIONS = [
         {
             id:1,
-            savol:"Mavzuga oid (1-savol) : ",
+            savol:"Mavzuga oid (1-savol) : Sug'urta jarayonida eng asosiy xujjat",
         },
         {
             id:2,
-            savol:"Mavzuga oid (2-savol) :",
+            savol:"Mavzuga oid (2-savol) : Sug'urta pulini qaytarib olish bu-bir atama bilan ifodalanadi?",
         },
         {
             id:4,

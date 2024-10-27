@@ -91,25 +91,19 @@ function Step1() {
 
     ]
 
-    const data = [{
-        a: parseInt(localStorage.getItem('a')) + 1,
-    },
-    {
-        b: localStorage.getItem('b'),
-    }]
 
     const QUESTIONS = [
         {
             id: 1,
-            savol: "Mavzuga oid (20 ball) :",
+            savol: "Mavzuga oid (20 ball) : Korxonanining ma'lum vaqt oralig'ida yalpi daromadning yalpi sarfga nisbati",
         },
         {
             id: 2,
-            savol: "Mavzuga oid (30 ball) :",
+            savol: "Mavzuga oid (30 ball) : ",
         },
         {
             id: 3,
-            savol: "Mavzuga oid (40 ball) :",
+            savol: "Mavzuga oid (40 ball) : Sug‘urta shartnomasida ko‘rsatilgan summa yoki foiz bo‘lib, sug‘urtalanuvchi zarar ko‘rgan taqdirda, bu summani o‘zi qoplaydi. Ya’ni, sug‘urta kompaniyasi faqat uni miqdoridan oshgan zararni qoplashga majbur bo‘ladi.",
         },
         {
             id: 4,

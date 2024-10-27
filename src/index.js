@@ -22,11 +22,11 @@ const myRouter = createBrowserRouter([{
     },
     {
       path:"/strategy-step2",
-      element:<Step2/>,
+      element:localStorage.getItem('ADMIN') ? <Step2/> : <Login/>,
     },
     {
       path:"/strategy-step3",
-      element:<Step3/>,
+      element:localStorage.getItem('ADMIN') ? <Step3/> : <Login/>,
     }
   ]
 }])
