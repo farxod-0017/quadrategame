@@ -8,7 +8,7 @@ function Login() {
     let [login, setLogin] = useState(0)
     let [parol, setParol] = useState(0)
     function addLocal() {
-        if(login === '1' && parol === '2') {
+        if(login === 'gurux3' && parol === '1541') {
             localStorage.setItem("ADMIN", "password")
             navigate('/strategy-step1')
         } else {
