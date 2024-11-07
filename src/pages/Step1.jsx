@@ -95,39 +95,39 @@ function Step1() {
     const QUESTIONS = [
         {
             id: 1,
-            savol: "Mavzuga oid (20 ball) : Korxonanining ma'lum vaqt oralig'ida yalpi daromadning yalpi sarfga nisbati",
+            savol: "Mavzuga oid (20 ball) : korxonaning iloji boricha ko’proq miqdorda va yuqori sifatdagi tovar va xizmatlarni ishlab chiqarishga intilishi.",
         },
         {
             id: 2,
-            savol: "Mavzuga oid (30 ball) : ",
+            savol: "Mavzuga oid (30 ball) :biznesrejaning qisqacha tavsifi ",
         },
         {
             id: 3,
-            savol: "Mavzuga oid (40 ball) : Sug‘urta shartnomasida ko‘rsatilgan summa yoki foiz bo‘lib, sug‘urtalanuvchi zarar ko‘rgan taqdirda, bu summani o‘zi qoplaydi. Ya’ni, sug‘urta kompaniyasi faqat uni miqdoridan oshgan zararni qoplashga majbur bo‘ladi.",
+            savol: "Mavzuga oid (40 ball) : ..... siyosati– bunda  narx qandaydir bir yuqori darajada  belgilanadi, mahsulot esa segmentatsiya natijasida asosiy deb e’tirof etilgan  bozorda sotiladi.",
         },
         {
             id: 4,
-            savol: "Xisoblang (30 ball) : Import qilinayotgan tovarga davlat narxi belgilandi va unga 10% aksiz solig'i so'ngra 14% QQS solingach qiymati 15 800 400 ga teng boldi. Tovarning dastlab davlat belgilagan narxini toping.",
+            savol: "Juda qiyin (30 ball) :  ...-turli mulk shakllari va har  xil xo'jalik turlarining  yaxlitligidan tashkil topgan iqtisodiyot.",
         },
         {
-            savol: "Xisoblang (40 ball) : Korxonaning vaqtga bog'langan daromadlar grafigi quyidagicha bolsa: f(x)=x² −12x+44. Uning minimal erishgan daromadi miqdorini toping",
+            savol: "Juda qiyin (40 ball) :  ...-xususiy tarzda tadbirkorlikning biror bir turi bilan shug'ullanishga ruxsat beruvchi guvohnoma, tegishli hujjatlar asosida moliya  organlari tomonidan beriladi; 2) ilmiy kashfiyot va ixtiroga mualliflikni tasdiqlovchi guvohnoma.  ",
             id: 5,
         },
         {
             id: 6,
-            savol: "Xisoblang (50 ball) : 5 oy muddatga yillik 10% stafkada 1oy imtiyozli muddat bilan malum miqdorda keradit berildi. Uning 5-oydagi foiz to'lovi 20 mingni tashkil etgan bolsa, kredit miqdorini aniqlang",
+            savol: "Juda qiyin (50 ball) :..-birja  faoliyatida aksiyaga qo'shib jo'natiladigan hujjat (sertifikat). Ushbu hujjatda aksiyaga tegishli tor doiradagi ba'zi ma'lumotlar (sirkulyasiyaga ruxsat olingan, aksiya konkurent tomonga tegishli emas va boshqalar) keltirilgan bo'ladi.  ",
         },
         {
             id: 7,
-            savol: "Iqtisodiy Atamalar (10 ball) : Faoliyati daromad olishga qaratilmagan bank",
+            savol: "Iqtisodiy Atamalar (10 ball) : ..........KAPITAL - ishlab chiqarish jarayonida bir necha yil davomida  ishtirok  etuvchi va o'z qiymatini tayyorlanayotgan mahsulotga qisman o'tkazib boruvchi mehnat vositalaridir. ",
         },
         {
             id: 8,
-            savol: "Iqtisodiy Atamalar (20 ball) : Bir davlatning o'z fuqarolari tomonidan ma'lum bir vaqt davomida (odatda bir yil) ishlab chiqarilgan barcha tovarlar va xizmatlarning umumiy qiymati.",
+            savol: "Iqtisodiy Atamalar (20 ball) :.....- bu davlat tomonidan korxona va tashkilotlarga muayyan  mahsulot turini  tayyorlash va uni  iste'molchilarga yetkazib berish, ishlab  chiqarish, noishlab  chiqarish  va ilmiy - tadqiqot xarakteridagi ma'lum ishlarni bajarish uchun beriladigan topshiriq.",
         },
         {
             id: 9,
-            savol: "Iqtisodiy Atamalar (30 ball) :  foydalanish uchun tayyor korxona, firma yoki mashhur firma mahsulotining savdo markasidan foydalanilgan holda amalga oshiriluvchi biznes yuritish usuli. ",
+            savol: "Iqtisodiy Atamalar (30 ball) : ......-aksioner, aksiya egasining  daromadi ; aksionerlik jamiyati foydasining bir qismi.    ",
         }
     ]
     const [selected, setSelected] = useState({ savol: 0 });
@@ -203,7 +203,7 @@ function Step1() {
                 })}
 
                 <div className="step1_card_theme">
-                    <h2>Xisoblang</h2>
+                    <h2>Muhim savol</h2>
                 </div>
                 {step2Data.map((item, index) => {
                     return (

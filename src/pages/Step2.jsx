@@ -68,27 +68,27 @@ function Step1() {
     const QUESTIONS = [
         {
             id:1,
-            savol:"Mavzuga oid (1-savol) : Sug'urta jarayonida eng asosiy xujjat",
+            savol:"Mavzuga oid (1-savol) : ......rejalashtirish – ishlab chiqarish rejalaridagi ko’rsatkichlar chuqurlashtirilib, tsexlar, uchastka va ish o’rinlari bo’yicha taqsimlanadi.",
         },
         {
             id:2,
-            savol:"Mavzuga oid (2-savol) : Sug'urta pulini qaytarib olish bu-bir atama bilan ifodalanadi?",
+            savol:"Mavzuga oid (2-savol) :  rejalashtirish – avvaldan belgilangan maqsadlarga erishish uchun vazifa va vositalarni asoslashni ko’zda tutadi. Masalan, kelgusi 5 yil ichida bozorda  ustunlikka erishish taktik maqsadi korxona raxbariyati tomonidan marketing bo’limiga yuklatiladi. ",
         },
         {
             id:4,
-            savol:"Xisoblang (1-savol) : Korxona 180 mln yillik 21% stafkada 3oy imtiyozli muddat bilan 1yilga keradit oldi. Korxona uchun 11-oydagi foiz to'lovini hisoblang",
+            savol:"Muhim savol (1-savol) : tabriklaymiz balingizdan 20 bal ayrildi ",
         },
         {
             id:5,
-            savol:"Xisoblang (2-savol) : Kompaniyaning Sof foydasi 56 mln ga teng bo'lib, uning Umumiy aktivlar qiymati 280 mlnga teng bolsa, kompaniya uchun Aktivlar rentabelligini (%) xisoblang.",
+            savol:"Muhim savol (2-savol) :...- mol; pul va shu kabilarning tegishli miqdoridan kam chiqqan qismi. ",
         },
         {
             id:7,
-            savol:"Iqtisodiy Atamalar (1-savol) : Kalendar yilida mamlakatda 183 kundan kam bo’lmagan muddatda yashagan, O’zbekistonda doimiy yashash joyiga ega bolIgan va bo’lmagan soliq to’lovchilar",
+            savol:"Iqtisodiy Atamalar (1-savol) : .......MULKI -  boylikni muayyan maqsad yo'lida ayrim jamoalarga birlashgan kishilar tomonidan birgalikda o'zlashtirilishi. ",
         },
         {
             id:8,
-            savol:"Iqtisodiy Atamalar (2-savol) : Qonun hujjatlarida nazarda tutilgan tartibda muayyan maqsadlarga sarflash sharti bn yuqori byudjetdan quyi byudjetga qaytarmaslik shartida ajratiladigan pul mablagʻlari",
+            savol:"Iqtisodiy Atamalar (2-savol) : ......- bu (arab)-mustaqil xo'jalik yuritish yoki boshqa biror faoliyatni amalga oshirish maqsadida yer, suv, korxona va boshqa mulkka egalik qilish hamda vaqtincha foydalanish uchun to'lanadigan muayyan haq. I. mulkka egalik huquqini o'zgartirmaydi.",
         },
     ]
     const[selected, setSelected] = useState({savol:0});
@@ -164,7 +164,7 @@ function Step1() {
                 })}
 
                 <div className="step1_card_theme">
-                    <h2>Xisoblang</h2>
+                    <h2>Muhim savol</h2>
                 </div>
                 {step2Data.map((item, index) => {
                     return (
